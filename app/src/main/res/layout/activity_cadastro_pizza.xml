@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/activity_cadastro_pizza_botao_salvar_pizza4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Listar" />
+
+    <EditText android:id="@+id/activity_cadastrar_pizza_sabor"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Sabor"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/activity_cadastrar_pizza_ingredientes"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Ingredientes"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/activity_cadastrar_pizza_valor"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Valor"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/activity_cadastro_pizza_botao_salvar_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#4CAF50"
+        android:backgroundTintMode="add"
+        android:text="Salvar" />
+</LinearLayout>
